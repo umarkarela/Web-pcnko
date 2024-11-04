@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pemesanan Baju</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header dengan gambar -->
+    <header>
+        <div class="header-container">
+            <img src="image/pnckoforyou dpn.png" alt="PCNKO Logo" class="header-logo">
+            <div class="search-container">
+                <input type="text" placeholder="Cari produk...">
+                <button class="search-btn">Cari</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidebar dan Konten Utama -->
+    <div class="content-container">
+        <!-- Sidebar Kategori -->
+        <aside class="sidebar">
+            <h2>Kategori</h2>
+            <ul>
+                <li>Project 1 PCNKO</li>
+                <!-- Tambahkan kategori lain jika perlu -->
+            </ul>
+        </aside>
+
+        <!-- Grid Produk -->
+        <main class="product-grid">
+            <div class="product-card">
+                <div class="product-images">
+                    <img src="image/fory dpn.png" alt="Front View" class="product-image">
+                    <img src="image/fory blk.png" alt="Back View" class="product-image">
+                </div>
+                <h3>Project 1 PCNKO</h3>
+                <p>Rp 80,000</p>
+                
+                <!-- Memisahkan fitur pemesanan -->
+                <div class="order-section">
+                    <h4>Detail Pemesanan</h4> <!-- Judul untuk bagian pemesanan -->
+                    
+                    <!-- Dropdown untuk pilihan ukuran -->
+                    <label for="size-select">Pilih Ukuran:</label>
+                    <select id="size-select" class="size-select">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+
+                    <!-- Input Nama Pemesan -->
+                    <div class="input-group">
+                        <label for="name">Nama Pemesan:</label>
+                        <input type="text" id="name" class="order-input" placeholder="Masukkan nama Anda">
+                    </div>
+
+                    <!-- Input Alamat Pemesan -->
+                    <div class="input-group">
+                        <label for="address">Alamat:</label>
+                        <input type="text" id="address" class="order-input" placeholder="Masukkan alamat Anda">
+                    </div>
+
+                    <!-- Input Nomor WhatsApp -->
+                    <div class="input-group">
+                        <label for="whatsapp">Nomor WhatsApp:</label>
+                        <input type="tel" id="whatsapp" class="order-input" placeholder="Masukkan nomor WA Anda">
+                    </div>
+
+                    <button class="order-btn">Pesan Sekarang</button>
+                </div>
+            </div>
+            <!-- Tambahkan lebih banyak card produk sesuai kebutuhan -->
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
