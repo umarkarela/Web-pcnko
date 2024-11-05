@@ -25,11 +25,13 @@
             <h2>Kategori</h2>
             <ul>
                 <li>Project 1 PCNKO</li>
+                <li>Project 2 POP PUNK</li>
+                <li>Project 1 RL</li>
                 <!-- Tambahkan kategori lain jika perlu -->
             </ul>
         </aside>
 
-        <!-- Grid Produk -->
+        <!-- Grid Produk pertama -->
         <main class="product-grid">
             <div class="product-card">
                 <div class="product-images">
@@ -73,9 +75,77 @@
                     <button class="order-btn">Pesan Sekarang</button>
                 </div>
             </div>
+            <main class="product-grid">
+                <div class="product-card">
+                    <!-- produk kedua  -->
+                    <div class="product-images">
+                        <img src="image/popunkdpn.png" alt="Front View" class="product-image">
+                        <img src="image/popunkblk.png" alt="Back View" class="product-image">
+                    </div>
+                    <h3>Project 2 POP PUNK</h3>
+                    <p>Rp 80,000</p>
+                    <!-- Bagian pemesanan -->
+                    <div class="order-section">
+                        <h4>Detail Pemesanan</h4>
+                        <label for="size-select">Pilih Ukuran:</label>
+                        <select id="size-select" class="size-select">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                        <div class="input-group">
+                            <label for="name">Nama Pemesan:</label>
+                            <input type="text" id="name" class="order-input" placeholder="Masukkan nama Anda">
+                        </div>
+                        <div class="input-group">
+                            <label for="address">Alamat:</label>
+                            <input type="text" id="address" class="order-input" placeholder="Masukkan alamat Anda">
+                        </div>
+                        <div class="input-group">
+                            <label for="whatsapp">Nomor WhatsApp:</label>
+                            <input type="tel" id="whatsapp" class="order-input" placeholder="Masukkan nomor WA Anda">
+                        </div>
+                        <button class="order-btn">Pesan Sekarang</button>
+                    </div>
+                </div>
+            
+                <div class="product-card">
+                    <!-- Informasi produk ketiga -->
+                    <div class="product-images">
+                        <img src="image/rl thirt.png" alt="Front View" class="product-image">
+                    </div>
+                    <h3>Project 3 RL</h3>
+                    <p>Rp 90,000</p>
+                    <!-- Bagian pemesanan -->
+                    <div class="order-section">
+                        <h4>Detail Pemesanan</h4>
+                        <label for="size-select">Pilih Ukuran:</label>
+                        <select id="size-select" class="size-select">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                        <div class="input-group">
+                            <label for="name">Nama Pemesan:</label>
+                            <input type="text" id="name" class="order-input" placeholder="Masukkan nama Anda">
+                        </div>
+                        <div class="input-group">
+                            <label for="address">Alamat:</label>
+                            <input type="text" id="address" class="order-input" placeholder="Masukkan alamat Anda">
+                        </div>
+                        <div class="input-group">
+                            <label for="whatsapp">Nomor WhatsApp:</label>
+                            <input type="tel" id="whatsapp" class="order-input" placeholder="Masukkan nomor WA Anda">
+                        </div>
+                        <button class="order-btn">Pesan Sekarang</button>
+                    </div>
+                </div>
             <!-- Tambahkan lebih banyak card produk sesuai kebutuhan -->
         </main>
     </div>
+    
 
     <script src="script.js"></script>
 </body>
